@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <p>it's working</p>
+      <p className="text-red-500">it's working</p>
     </>
   );
 }
