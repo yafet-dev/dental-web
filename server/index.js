@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv"
 import bodyParser from "body-parser";
+import mongoose from "mongoose";
 
 import customersRoute from './routes/customersRoute.js'
 import medicalRoute from "./routes/medicalRoute.js";
@@ -25,4 +26,13 @@ app.use('/payments', paymentsRoute);
 app.use('/medical', medicalRoute);
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, async () => {
+    console.log(`Server running on port ${PORT}`);
+    try{
+        await mongoose.connect(process.env.DB_CONNECTION_URL);
+        console.log("Connected to database successfully");
+    }
+    catch(err){
+        console.log(err);
+    }
+});
