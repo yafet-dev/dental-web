@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0f4e6f;
+  --font-karla: Karla, "sans-serif";
+  --font-Poppins: Poppins, "sans-serif";
+  --color-primary-hover: #092d40;
+  --color-primary-bg: #f3fdffcc;
+  --color-secondary: #1ba2bb;
+}
+.image-container {
+  position: relative;
+  z-index: 0; /* Ensure the image is below the footer */
+  margin-bottom: -5px;
+}
+
+/* Ensure the footer has a higher z-index */
+footer {
+  position: relative;
+  z-index: 1;
+}

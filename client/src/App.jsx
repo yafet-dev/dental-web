@@ -1,12 +1,13 @@
 import { useState } from "react";
 
 import "./App.css";
+import HomePage from "./components/HomePage";
 
 function App() {
   return (
-    <>
-      <p>it's working</p>
-    </>
+    <main className="font-karla">
+      <HomePage />
+    </main>
   );
 }
 
