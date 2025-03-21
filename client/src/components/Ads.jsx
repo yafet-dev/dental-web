@@ -20,7 +20,7 @@ const Ads = () => {
         <div className="flex items-center space-x-2">
           <FaCalendarAlt className="text-primary h-3 w-3" />
           <span className="text-gray-700 font-medium">
-            Monday - Saturday: 9 am - 11.30 pm
+            Monday - Saturday: 8:30 am - 6.00 pm
           </span>
         </div>
       </div>
