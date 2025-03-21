@@ -40,7 +40,7 @@ const VisitUs = () => {
             {/* Full-Width Map */}
             <div className="w-full h-[300px] rounded-b-2xl overflow-hidden ">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509467!2d144.95373631568353!3d-37.81627917975159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577ec52aa9c3d3d!2sMelbourne%20CBD%2C%20Victoria%2C%20Australia!5e0!3m2!1sen!2sus!4v1642116802559!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d985.0833824406475!2d38.76116482099478!3d9.033308324155632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b858a6eee6e4b%3A0x8cf43f3c6f571968!2s2QM6%2B9G8%2C%20Addis%20Ababa!5e0!3m2!1sen!2set!4v1742579642110!5m2!1sen!2set"
                 className="w-full h-full"
                 style={{ border: 0 }}
                 allowFullScreen=""
@@ -59,13 +59,14 @@ const VisitUs = () => {
             </div>
             <ul className="text-gray-700">
               {[
-                { day: "Sunday", hours: "9:00am - 2:00pm" },
-                { day: "Monday", hours: "9:00am - 6:00pm" },
-                { day: "Tuesday", hours: "CLOSED", closed: true },
-                { day: "Wednesday", hours: "9:00am - 6:00pm" },
-                { day: "Thursday", hours: "CLOSED", closed: true },
-                { day: "Friday", hours: "9:00am - 6:00pm" },
-                { day: "Saturday", hours: "9:00am - 2:00pm" },
+                { day: "Sunday", hours: "8:30am - 6:00pm" },
+                { day: "Monday", hours: "8:30am - 6:00pm" },
+                { day: "Tuesday", hours: "8:30am - 6:00pm" },
+                { day: "Wednesday", hours: "8:30am - 6:00pm" },
+                { day: "Thursday", hours: "8:30am - 6:00pm" },
+                { day: "Friday", hours: "8:30am - 6:00pm" },
+                { day: "Saturday", hours: "8:30am - 6:00pm" },
+                { day: "Sunday", hours: "8:00am - 1:30pm" },
               ].map((item, index) => {
                 // Get current day (0 = Sunday, 1 = Monday, ..., 6 = Saturday)
                 const today = new Date().getDay();

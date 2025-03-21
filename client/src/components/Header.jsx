@@ -19,7 +19,7 @@ const Header = () => {
             SERVICES
           </a>
           <a href="#new-patient" className="text-white hover:text-gray-300">
-            NEW PATIENT
+            BLOGS
           </a>
           <a href="#contact" className="text-white hover:text-gray-300">
             CONTACT
@@ -28,7 +28,7 @@ const Header = () => {
             href="#book-online"
             className="bg-red-800 text-white px-4 py-2 border-red-800 rounded-2xl hover:bg-red-900"
           >
-            BOOK ONLINE
+            SIGN IN
           </a>
         </nav>
       </div>

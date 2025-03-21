@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex items-center space-x-3">
           <FiPhone className="text-lg" />
           <div>
-            <p className="font-semibold">+91-022-67570111</p>
+            <p className="font-semibold">+251911099743</p>
             <p className="text-sm text-gray-300">call us now</p>
           </div>
         </div>
@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="flex items-center space-x-3 mt-4 md:mt-0">
           <FiMail className="text-lg" />
           <div>
-            <p className="font-semibold">write@saifeehospital.com</p>
+            <p className="font-semibold">dadihabtamu@gmail.com</p>
             <p className="text-sm text-gray-300">drop us an email</p>
           </div>
         </div>
